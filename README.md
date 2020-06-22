@@ -4,22 +4,30 @@ Convert an image to monocrom (binary) image and use all black points (=0) as cit
 
 ### RGB to GREY to bin to tsp
 
+generate Daisey-grey.png
 ```
 convert ./data/Daisey.png -colorspace gray ./data/Daisey-grey.png
 ```
-generate Daisey-grey.png
 
-#### binary_local_threshold.ipynb
 generate data/test-bin-local-delitate.png
+```
+binary_local_threshold.ipynb
+```
 
-#### ./monchrom2cities-txt data/test-bin-local-delitate.png
 generate data/test.tsp
+```
+./monchrom2cities-txt data/test-bin-local-delitate.png
+```
 
-#### ./columbus data/test -global_search= 10 -local_search= 30 -temp= 15000 -decay= .9985 -maxiter= 16000 &
 generate data/test_trip.csv
+```
+./columbus data/test -global_search= 10 -local_search= 30 -temp= 15000 -decay= .9985 -maxiter= 16000 &
+```
 
-#### tsp_result_only.ipynb
 Visualize (intermediate) results of data/test_trip.csv
+```
+tsp_result_only.ipynb
+```
 
 
 
