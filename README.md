@@ -16,8 +16,8 @@ generate data/test.tsp
 #### ./columbus data/test -global_search= 10 -local_search= 30 -temp= 15000 -decay= .9985 -maxiter= 16000 &
 generate data/test_trip.csv
 
-#### Watch intermediate results: tsp_result_only.ipynb
-Visualize data/test_trip.csv
+#### tsp_result_only.ipynb
+Visualize (intermediate) results of data/test_trip.csv
 
 
 
