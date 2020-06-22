@@ -4,7 +4,7 @@ RGB to GREY to bin to tsp
 # convert ./data/Daisey.png -colorspace gray ./data/Daisey-grey.png
 generate Daisey-grey.png
 
-#binary_local_threshold.ipynb
+# binary_local_threshold.ipynb
 generate data/test-bin-local-delitate.png
 
 # ./monchrom2cities-txt data/test-bin-local-delitate.png
