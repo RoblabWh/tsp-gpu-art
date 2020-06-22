@@ -9,12 +9,12 @@ generate Daisey-grey.png
 convert ./data/Daisey.png -colorspace gray ./data/Daisey-grey.png
 ```
 
-generate data/test-bin-local-delitate.png
+generate ./data/test-bin-local-delitate.png
 ```
 binary_local_threshold.ipynb
 ```
 
-generate data/test.tsp
+generate ./data/test.tsp
 ```
 ./monchrom2cities-txt data/test-bin-local-delitate.png
 ```
@@ -24,7 +24,7 @@ generate data/test_trip.csv (intermediate result /tmp/test_trip.csv)
 ./columbus data/test -global_search= 10 -local_search= 30 -temp= 15000 -decay= .9985 -maxiter= 16000 &
 ```
 
-Visualize (intermediate) results of data/test_trip.csv
+Visualize (intermediate) results of ./data/test_trip.csv (or /tmp/test_trip.csv)
 ```
 tsp_result_only.ipynb
 ```
