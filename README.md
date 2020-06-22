@@ -1,6 +1,7 @@
 
 RGB to GREY
-convert .data/Daisey.jpg -colorspace gray data/Daisey-grey.png
+
+convert .data/Daisey.png -colorspace gray data/Daisey-grey.png
 
 Credits
 
