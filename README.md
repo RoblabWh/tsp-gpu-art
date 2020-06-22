@@ -4,7 +4,9 @@ Convert an image to monocrom (binary) image and use all black points (=0) as cit
 
 ### RGB to GREY to bin to tsp
 
-#### convert ./data/Daisey.png -colorspace gray ./data/Daisey-grey.png
+```
+convert ./data/Daisey.png -colorspace gray ./data/Daisey-grey.png
+```
 generate Daisey-grey.png
 
 #### binary_local_threshold.ipynb
